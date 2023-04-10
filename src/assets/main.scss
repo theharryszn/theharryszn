@@ -1,0 +1,25 @@
+@import 'base';
+
+* {
+  cursor: none;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.blinker {
+  animation: blinker 0.5s linear infinite;
+}
+
+a {
+  &:hover {
+    @apply text-zinc-400 transition;
+  }
+}
+
+// [class*='cursor'] {
+//   @apply bg-red-300;
+// }
