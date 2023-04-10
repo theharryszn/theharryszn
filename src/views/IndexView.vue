@@ -15,7 +15,9 @@ onMounted(() => {
   }, 1000)
 
   // shrink animation
-  const shrinks = document.querySelectorAll("[class*='shrink']")
+  const shrinks = document.querySelectorAll('.shrink')
+
+  console.log(shrinks)
 
   shrinks.forEach((el) => {
     el.addEventListener('mouseover', () => {
@@ -45,8 +47,8 @@ function updateTime() {
 <template>
   <div class="flex min-h-screen justify-center items-center">
     <div class="text-3xl md:text-7xl">
-      <span class="hover:text-zinc-600 transition shrink">theharryszn</span
-      ><span class="hover:text-zinc-600 transition shrink">.dev</span>
+      <span class="hover:text-zinc-600 shrink transition">theharryszn</span
+      ><span class="hover:text-zinc-600 shrink transition">.dev</span>
     </div>
     <div
       class="fixed text-xs bottom-0 p-5 md:text-sm w-screen flex items-center gap-5 justify-between"

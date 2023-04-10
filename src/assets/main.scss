@@ -10,9 +10,13 @@
   }
 }
 
+.cursor {
+  display: none;
+}
+
 @media (hover: hover) {
   .cursor {
-    display: none;
+    display: flex;
   }
 }
 
