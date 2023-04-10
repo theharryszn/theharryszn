@@ -17,8 +17,6 @@ onMounted(() => {
   // shrink animation
   const shrinks = document.querySelectorAll('.shrink')
 
-  console.log(shrinks)
-
   shrinks.forEach((el) => {
     el.addEventListener('mouseover', () => {
       gsap.to('.cursor', {
