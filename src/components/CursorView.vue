@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { onMounted, ref } from 'vue'
-import gsap from 'gsap'
 
 const cursor = ref<HTMLDivElement | null>(null)
 
@@ -25,7 +24,7 @@ onMounted(() => {
 </template>
 <style scoped lang="scss">
 .cursor {
-  @apply fixed w-20 opacity-0 transition-opacity duration-300 flex justify-center items-center aspect-square rounded-full border border-zinc-950/50 dark:border-zinc-50/50;
+  @apply fixed w-20 opacity-0 transition-opacity duration-300 justify-center items-center aspect-square rounded-full border border-zinc-950/50 dark:border-zinc-50/50;
 
   .dot {
     @apply w-2 h-2 dark:bg-zinc-50/50 bg-zinc-950 rounded-full;

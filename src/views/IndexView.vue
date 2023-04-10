@@ -43,11 +43,13 @@ function updateTime() {
 }
 </script>
 <template>
-  <div class="flex min-h-screen justify-center items-center">
+  <div class="flex min-h-screen flex-col gap-5 justify-center items-center">
+    <!-- <p class="text-zinc-400">Hi, I'm</p> -->
     <div class="text-3xl md:text-7xl">
       <span class="hover:text-zinc-600 shrink transition">theharryszn</span
       ><span class="hover:text-zinc-600 shrink transition">.dev</span>
     </div>
+    <p class="text-zinc-400">Software Engineer</p>
     <div
       class="fixed text-xs bottom-0 p-5 md:text-sm w-screen flex items-center gap-5 justify-between"
     >
@@ -60,6 +62,7 @@ function updateTime() {
         <a class="shrink" href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer"
           >TailwindCSS</a
         >
+        <!-- and ❤️ -->
       </div>
       <div>{{ time.hour }} <span>:</span> {{ time.min }} <span>:</span> {{ time.sec }} WAT</div>
     </div>
