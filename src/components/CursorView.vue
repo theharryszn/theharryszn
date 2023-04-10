@@ -19,12 +19,12 @@ onMounted(() => {
 })
 </script>
 <template>
-  <div ref="cursor" class="c-circle">
+  <div ref="cursor" class="cursor">
     <span class="dot"></span>
   </div>
 </template>
 <style scoped lang="scss">
-.c-circle {
+.cursor {
   @apply fixed w-20 opacity-0 transition-opacity duration-300 flex justify-center items-center aspect-square rounded-full border border-zinc-950/50 dark:border-zinc-50/50;
 
   .dot {

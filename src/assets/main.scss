@@ -10,6 +10,12 @@
   }
 }
 
+@media (hover: hover) {
+  .cursor {
+    display: none;
+  }
+}
+
 .blinker {
   animation: blinker 0.5s linear infinite;
 }

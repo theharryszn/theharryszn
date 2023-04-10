@@ -19,14 +19,14 @@ onMounted(() => {
 
   shrinks.forEach((el) => {
     el.addEventListener('mouseover', () => {
-      gsap.to('.c-circle', {
+      gsap.to('.cursor', {
         scale: 0.5,
         duration: 0.5
       })
     })
 
     el.addEventListener('mouseout', () => {
-      gsap.to('.c-circle', {
+      gsap.to('.cursor', {
         scale: 1,
         duration: 0.5
       })
@@ -48,7 +48,9 @@ function updateTime() {
       <span class="hover:text-zinc-600 transition shrink">theharryszn</span
       ><span class="hover:text-zinc-600 transition shrink">.dev</span>
     </div>
-    <div class="fixed bottom-0 p-5 text-sm w-screen flex items-center justify-between">
+    <div
+      class="fixed text-xs bottom-0 p-5 md:text-sm w-screen flex items-center gap-5 justify-between"
+    >
       <div>
         Built with
         <a class="shrink" href="https://vuejs.org/" target="_blank" rel="noopener noreferrer"
