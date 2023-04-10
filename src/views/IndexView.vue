@@ -44,7 +44,7 @@ function updateTime() {
 </script>
 <template>
   <div class="flex min-h-screen justify-center items-center">
-    <div class="text-7xl">
+    <div class="text-3xl md:text-7xl">
       <span class="hover:text-zinc-600 transition shrink">theharryszn</span
       ><span class="hover:text-zinc-600 transition shrink">.dev</span>
     </div>
