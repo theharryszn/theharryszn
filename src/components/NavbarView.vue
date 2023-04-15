@@ -35,7 +35,7 @@ onBeforeRouteLeave(() => {
   </nav>
   <div
     id="mobile-menu"
-    class="fixed z-[99] dark:bg-zinc-950 p-10 gap-10 flex md:hidden flex-col w-screen h-screen transform translate-x-[100vh]"
+    class="fixed z-[99] dark:bg-zinc-950 bg-zinc-50 p-10 gap-10 flex md:hidden flex-col w-screen h-screen transform translate-x-[100vh]"
   >
     <div class="flex opacity-50 hover:opacity-100 shrink" @click="closeMenu">CLOSE</div>
     <RouterLink to="/" class="opacity-50 hover:opacity-100 shrink text-3xl">Home</RouterLink>
