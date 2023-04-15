@@ -75,6 +75,6 @@ onMounted(() => {
   height: 100%;
   @apply flex items-center justify-center bg-zinc-950 text-white;
   overflow: hidden;
-  z-index: 99;
+  z-index: 999;
 }
 </style>

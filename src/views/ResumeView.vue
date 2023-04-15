@@ -5,7 +5,7 @@ import FooterView from '@/components/FooterView.vue'
 <template>
   <pageContainer>
     <NavbarView />
-    <main class="px-10 flex flex-col justify-center gap-5">
+    <main class="px-5 md:px-10 flex flex-col justify-center gap-5">
       <div data-scroll-section class="md:pt-40 pt-32 py-5 flex flex-col gap-5">
         <div class="text-3xl md:text-5xl">Resume</div>
       </div>
@@ -15,7 +15,7 @@ import FooterView from '@/components/FooterView.vue'
       </div>
       <div data-scroll-section>
         <div
-          class="bg-zinc-800/10 text-xs md:text-sm p-10 aspect-square border border-transparent rounded-sm hover:border-zinc-50/10 transition-all duration-700 hover:scale-[1.01]"
+          class="dark:bg-zinc-800/10 bg-zinc-400/5 text-xs md:text-sm p-10 aspect-square border border-transparent rounded-sm hover:border-zinc-50/10 transition-all duration-700 hover:scale-[1.01]"
         >
           <div class="flex flex-col gap-2">
             <div class="text-3xl font-bold">Abidemi Ope (Harry)</div>

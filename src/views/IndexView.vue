@@ -5,7 +5,7 @@ import FooterView from '@/components/FooterView.vue'
 <template>
   <pageContainer>
     <NavbarView />
-    <main class="px-10 flex flex-col justify-center gap-5">
+    <main class="px-5 md:px-10 flex flex-col justify-center gap-5">
       <div data-scroll-section class="md:pt-40 pt-32 py-5 flex flex-col gap-5">
         <div class="text-3xl md:text-5xl">
           Hi 👋🏾 - I'm Harry, A Nigerian 🇳🇬 based Software Engineer. I have a strong passion for
