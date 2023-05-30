@@ -2,7 +2,7 @@
 <template>
   <div class="preloader p-10">
     <div class="w-40 lg:w-56 h-1 bg-zinc-700 rounded-full">
-      <div id="progress-indicator" class="h-1 w-[0%] bg-zinc-50 rounded-full"></div>
+      <div id="progress-indicator" class="h-1 w-[0%] bg-zinc-50 rounded-full transition"></div>
     </div>
     <!-- <div
       class="bg-zinc-900/20 m-auto border border-zinc-50/5 p-5 font-mono text-sm rounded-md max-w-[30rem] min-h-[10rem] w-full flex flex-col gap-5"
