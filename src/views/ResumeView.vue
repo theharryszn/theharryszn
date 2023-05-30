@@ -11,7 +11,7 @@ const download = () => {
 <template>
   <pageContainer>
     <NavbarView />
-    <main class="px-5 md:px-10 flex flex-col justify-center gap-5">
+    <main class="px-5 md:px-20 flex flex-col justify-center gap-5">
       <div data-scroll-section class="md:pt-40 pt-32 py-5 flex flex-col gap-5">
         <div class="text-3xl md:text-5xl">Résumè</div>
       </div>
@@ -21,21 +21,21 @@ const download = () => {
       </div>
       <div data-scroll-section id="resume">
         <div
-          class="dark:bg-zinc-800/10 bg-zinc-400/5 text-xs md:text-sm p-5 md:p-10 aspect-square border border-transparent rounded-sm hover:border-zinc-50/10 transition-all duration-700 hover:scale-[1.01]"
+          class="bg-zinc-800/10 text-xs md:text-sm p-5 md:p-10 aspect-square border border-transparent rounded-sm hover:border-zinc-50/10 transition-all duration-700 hover:scale-[1.01]"
         >
           <div class="flex flex-col gap-2">
             <div class="text-3xl font-bold">Abidemi Ope (Harry)</div>
             <div class="flex items-center gap-x- md:gap-x-5 gap-y-2 text-sm flex-wrap">
               <span>Software Engineer</span><span class="opacity-50">|</span>
-              <a class="shrink" href="mailto:opeabidemi@gmail.com">opeabidemi@gmail.com</a>
+              <a class="cursor-shrink" href="mailto:opeabidemi@gmail.com">opeabidemi@gmail.com</a>
               <span class="opacity-50">|</span
-              ><a class="shrink" href="tel:+2349022449670">+2349022449670</a>
+              ><a class="cursor-shrink" href="tel:+2349022449670">+2349022449670</a>
               <span class="opacity-50">|</span>
               <a
                 href="http://theharryszn.dev"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="shrink"
+                class="cursor-shrink"
                 >theharryszn.dev</a
               >
             </div>
@@ -278,7 +278,7 @@ const download = () => {
         <div class="flex gap-10 flex-wrap gap-y-5">
           <a
             href="mailto:opeabidemi@gmail.com"
-            class="text-sm opacity-50 hover:opacity-100 shrink"
+            class="text-sm opacity-50 hover:opacity-100 cursor-shrink"
             rel="noopener noreferrer"
             >EMAIL</a
           >
@@ -286,26 +286,26 @@ const download = () => {
             href="https://www.linkedin.com/in/abidemi-ope-1ba99019a"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-sm opacity-50 hover:opacity-100 shrink"
+            class="text-sm opacity-50 hover:opacity-100 cursor-shrink"
             >LINKEDIN</a
           >
           <a
             href="https://twitter.com/theharryszn"
-            class="text-sm opacity-50 hover:opacity-100 shrink"
+            class="text-sm opacity-50 hover:opacity-100 cursor-shrink"
             rel="noopener noreferrer"
             target="_blank"
             >TWITTER</a
           >
           <a
             href="https://github.com/theharryszn"
-            class="text-sm opacity-50 hover:opacity-100 shrink"
+            class="text-sm opacity-50 hover:opacity-100 cursor-shrink"
             rel="noopener noreferrer"
             target="_blank"
             >GITHUB</a
           >
           <a
             href="https://instagram.com/theharryszn"
-            class="text-sm opacity-50 hover:opacity-100 shrink"
+            class="text-sm opacity-50 hover:opacity-100 cursor-shrink"
             rel="noopener noreferrer"
             target="_blank"
             >INSTAGRAM</a
@@ -314,14 +314,14 @@ const download = () => {
             href="https://snapchat.com/add/theharryszn"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-sm opacity-50 hover:opacity-100 shrink"
+            class="text-sm opacity-50 hover:opacity-100 cursor-shrink"
             >SNAPCHAT</a
           >
           <a
             href="https://open.spotify.com/user/31br6djiz7oburebyiscmbr4lqny?si=71fcf51fb70e4ca3"
             rel="noopener noreferrer"
             target="_blank"
-            class="text-sm opacity-50 hover:opacity-100 shrink"
+            class="text-sm opacity-50 hover:opacity-100 cursor-shrink"
             >SPOTIFY</a
           >
         </div>

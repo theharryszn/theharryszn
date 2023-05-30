@@ -24,10 +24,10 @@ onMounted(() => {
 </template>
 <style scoped lang="scss">
 .cursor {
-  @apply z-[9999999] transition-opacity duration-300 pointer-events-none fixed w-20 opacity-0  justify-center items-center aspect-square rounded-full border border-zinc-950/50 dark:border-zinc-50/50;
+  @apply z-[9999999] transition-opacity duration-300 pointer-events-none fixed w-20 opacity-0  justify-center items-center aspect-square rounded-full border border-zinc-50/50;
 
   .dot {
-    @apply w-2 h-2 dark:bg-zinc-100/50 bg-zinc-950 rounded-full;
+    @apply w-2 h-2 bg-zinc-100/50 rounded-full;
   }
 }
 </style>

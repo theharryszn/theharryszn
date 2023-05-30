@@ -45,7 +45,8 @@ export default {
   },
   mounted() {
     this.setScroll()
-    const shrinks = document.querySelectorAll('.shrink')
+    const shrinks = document.querySelectorAll('.cursor-shrink')
+    const dark_cursors = document.querySelectorAll('.dark-cursor')
 
     shrinks.forEach((el) => {
       el.addEventListener('mouseover', () => {
@@ -58,6 +59,31 @@ export default {
       el.addEventListener('mouseout', () => {
         gsap.to('.cursor', {
           scale: 1,
+          duration: 0.5
+        })
+      })
+    })
+
+    dark_cursors.forEach((el) => {
+      el.addEventListener('mouseover', () => {
+        gsap.to('.cursor', {
+          borderColor: 'rgb(9 9 11 / 1)',
+          duration: 0.5
+        })
+        gsap.to('.cursor .dot', {
+          backgroundColor: 'rgb(9 9 11 / 1)',
+          duration: 0.5
+        })
+      })
+
+      el.addEventListener('mouseout', () => {
+        gsap.to('.cursor', {
+          borderColor: 'rgb(250 250 250 / 0.5)',
+          duration: 0.5
+        })
+
+        gsap.to('.cursor .dot', {
+          backgroundColor: 'rgb(250 250 250 / 0.5)',
           duration: 0.5
         })
       })
