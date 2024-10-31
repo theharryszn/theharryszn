@@ -4,11 +4,23 @@ import FooterView from '@/components/FooterView.vue'
 
 const featured_projects = [
   {
+    title: 'Visaro',
+    description:
+      'Visaro is a BNPL fintech app',
+    url: 'https://visaro.ng',
+    image: new URL('/src/assets/images/screenshots/visaro.png', import.meta.url).href,
+    repository: null,
+    team: {
+      name: 'Visaro',
+      url: 'https://visaro.ng'
+    }
+  },
+  {
     title: 'Stickies',
     description:
       'Stickies is a simple note-taking web-app built with Vue and TailwindCSS. It allows you to pin sticky notes at random on a board. It harness the browsers Local Storage for storing notes.',
     url: 'https://stickies-app.vercel.app',
-    image: 'src/assets/images/screenshots/stickies.png',
+    image: new URL('/src/assets/images/screenshots/stickies.png', import.meta.url).href,
     repository: 'https://github.com/OpeAbidemi/stickies',
     team: {
       name: 'Abidemi Ope',
@@ -19,7 +31,7 @@ const featured_projects = [
     title: 'Beatfro',
     description: 'A music streaming app',
     url: 'http://beatfrowaitlist.netlify.app/',
-    image: 'src/assets/images/screenshots/beatfro.png',
+    image: new URL('/src/assets/images/screenshots/beatfro.png', import.meta.url).href,
     repository: null,
     team: {
       name: 'Renli Tech',
@@ -30,7 +42,7 @@ const featured_projects = [
     title: 'ON-OS',
     description: 'A web based open source operating system',
     url: 'https://on-os.vercel.app/',
-    image: 'src/assets/images/screenshots/onos.png',
+    image: new URL('/src/assets/images/screenshots/onos.png', import.meta.url).href,
     repository: 'https://github.com/asterix-oss/on-os',
     team: {
       name: 'Asterix',
@@ -41,7 +53,7 @@ const featured_projects = [
     title: 'darkchill',
     description: 'A very chill dark theme for VS Code',
     url: 'https://marketplace.visualstudio.com/items?itemName=AbidemiOpe.darkchill&ssr=false#overview',
-    image: 'src/assets/images/screenshots/darkchill.png',
+    image: new URL('/src/assets/images/screenshots/darkchill.png', import.meta.url).href,
     repository: 'https://github.com/OpeAbidemi/darkchill',
     team: {
       name: 'Abidemi Ope',
@@ -52,7 +64,7 @@ const featured_projects = [
     title: 'Beyond',
     description: 'A React component library based on Renli Design System',
     url: 'https://www.npmjs.com/package/@beyond-ui/react',
-    image: 'src/assets/images/screenshots/beyond.png',
+    image: new URL('/src/assets/images/screenshots/beyond.png', import.meta.url).href,
     repository: 'https://github.com/renli-tech/Beyond',
     team: {
       name: 'Renli Tech',
@@ -63,7 +75,7 @@ const featured_projects = [
     title: 'Olimf Productions',
     description: 'Website for Media Agency',
     url: 'https://www.olimf.com/',
-    image: 'src/assets/images/screenshots/olimf.png',
+    image: new URL('/src/assets/images/screenshots/olimf.png', import.meta.url).href,
     repository: null,
     team: {
       name: 'Abidemi Ope',
@@ -75,7 +87,7 @@ const featured_projects = [
     description:
       'A yummy fullstack monorepo boilerplate 🍔🍔 using Typescript, GraphQL, React and React Native (Expo)',
     url: 'https://github.com/renli-tech/hamburger',
-    image: 'src/assets/images/screenshots/hamburger.png',
+    image: new URL('/src/assets/images/screenshots/hamburger.png', import.meta.url).href,
     repository: 'https://github.com/renli-tech/hamburger',
     team: {
       name: 'Renli Tech',
@@ -107,7 +119,7 @@ const featured_projects = [
           <img
             :src="project.image"
             :alt="project.description"
-            class="bg-zinc-800/10 aspect-video object-cover md:aspect-square w-full border border-transparent rounded-sm hover:border-zinc-50/10 transition-all duration-700 hover:scale-[1.01]"
+            class="bg-zinc-800/10 aspect-video object-cover w-full border border-transparent rounded-sm hover:border-zinc-50/10 transition-all duration-700 hover:scale-[1.01]"
           />
           <div>
             <div>{{ project.title }}</div>
@@ -122,7 +134,7 @@ const featured_projects = [
         >
           <img
             src="@/assets/images/stickies.png"
-            class="bg-zinc-800/10 aspect-video object-cover md:aspect-square w-full border border-transparent rounded-sm hover:border-zinc-50/10 transition-all duration-700 hover:scale-[1.01]"
+            class="bg-zinc-800/10 aspect-video object-cover w-full border border-transparent rounded-sm hover:border-zinc-50/10 transition-all duration-700 hover:scale-[1.01]"
           />
           <div>
             <div>Stickies</div>
@@ -173,8 +185,7 @@ const featured_projects = [
         </div> -->
       </div>
       <div data-scroll-section class="pt-20 flex flex-col justify-center gap-10">
-        <blockquote class="text-3xl pl-5 border-l-4 border-zinc-800/50">
-          <!-- <span class="text-5xl font-extrabold leading-[0] opacity-30">{{ `"` }}</span> -->
+        <!-- <blockquote class="text-3xl pl-5 border-l-4 border-zinc-800/50">
           Software engineer ing is not just about writing code, it's about designing and building
           solutions that solve real-world problems and improve people's lives.
         </blockquote>
@@ -184,7 +195,7 @@ const featured_projects = [
           by developing innovative software applications that promote sustainability, social
           responsibility, and human well-being. By working collaboratively, we can create a better
           world for ourselves and for generations to come.
-        </div>
+        </div> -->
         <div class="flex gap-10 flex-wrap gap-y-5">
           <a
             href="mailto:opeabidemi@gmail.com"

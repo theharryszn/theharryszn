@@ -263,8 +263,7 @@ const download = () => {
         </div>
       </div>
       <div data-scroll-section class="pt-20 flex flex-col justify-center gap-10">
-        <blockquote class="text-3xl pl-5 border-l-4 border-zinc-800/50">
-          <!-- <span class="text-5xl font-extrabold leading-[0] opacity-30">{{ `"` }}</span> -->
+        <!-- <blockquote class="text-3xl pl-5 border-l-4 border-zinc-800/50">
           Software engineering is the art of creating something out of nothing, and then making it
           available to everyone.
         </blockquote>
@@ -274,7 +273,7 @@ const download = () => {
           by developing innovative software applications that promote sustainability, social
           responsibility, and human well-being. By working collaboratively, we can create a better
           world for ourselves and for generations to come.
-        </div>
+        </div> -->
         <div class="flex gap-10 flex-wrap gap-y-5">
           <a
             href="mailto:opeabidemi@gmail.com"
