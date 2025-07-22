@@ -4,15 +4,36 @@ import FooterView from '@/components/FooterView.vue'
 
 const featured_projects = [
   {
+    title: 'Luxe Mom Recovery',
+    description: 'A post-partum consultant',
+    url: 'https://www.luxemomrecovery.ca/',
+    image: new URL('/src/assets/images/screenshots/luxemom.png', import.meta.url).href,
+    repository: null,
+    team: {
+      name: 'Abidemi Ope',
+      url: 'https://github.com/OpeAbidemi'
+    }
+  },
+  {
     title: 'Visaro',
-    description:
-      'Visaro is a BNPL fintech app',
+    description: 'Visaro is a BNPL digital wallet app',
     url: 'https://visaro.ng',
     image: new URL('/src/assets/images/screenshots/visaro.png', import.meta.url).href,
     repository: null,
     team: {
       name: 'Visaro',
       url: 'https://visaro.ng'
+    }
+  },
+  {
+    title: 'Ark of Testimony',
+    description: 'An online store integrated with Shopify',
+    url: 'https://www.arkoftestimony.com/',
+    image: new URL('/src/assets/images/screenshots/arkoftestimony.png', import.meta.url).href,
+    repository: null,
+    team: {
+      name: 'Abidemi Ope',
+      url: 'https://github.com/OpeAbidemi'
     }
   },
   {
@@ -36,6 +57,17 @@ const featured_projects = [
     team: {
       name: 'Renli Tech',
       url: 'https://github.com/renli-tech'
+    }
+  },
+  {
+    title: 'Creative Engine',
+    description: 'A Portfolio website for Creative Engine',
+    url: 'https://thecre8tiveengine.vercel.app/',
+    image: new URL('/src/assets/images/screenshots/creativeengine.png', import.meta.url).href,
+    repository: null,
+    team: {
+      name: 'Abidemi Ope',
+      url: 'https://github.com/OpeAbidemi'
     }
   },
   {

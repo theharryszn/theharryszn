@@ -54,7 +54,7 @@ const download = () => {
                   <div class="flex flex-col gap-3">
                     <div>
                       <div class="font-semibold">Web Development Tutor</div>
-                      <div class="text-sm">Capriquota Technologies | 2021</div>
+                      <div class="text-sm">Capriquota Technologies - Nigeria | 2021</div>
                     </div>
                     <div class="text-zinc-400">
                       I taught students about various web technologies, including HTML, CSS, and
@@ -70,7 +70,7 @@ const download = () => {
                   <div class="flex flex-col gap-3">
                     <div>
                       <div class="font-semibold">Faculty Member (Intern)</div>
-                      <div class="text-sm">Aptech Computer Education | 2021</div>
+                      <div class="text-sm">Aptech Computer Education - Nigeria | 2021</div>
                     </div>
                     <div class="text-zinc-400">
                       Aligned with system-wide goals and priorities, I developed and executed
@@ -88,7 +88,7 @@ const download = () => {
                   <div class="flex flex-col gap-3">
                     <div>
                       <div class="font-semibold">Senior Faculty Member</div>
-                      <div class="text-sm">Aptech Computer Education | 2022</div>
+                      <div class="text-sm">Aptech Computer Education - Nigeria | 2022</div>
                     </div>
                     <div class="text-zinc-400">
                       To evaluate students' progress, I graded assignments, papers, and exams. As a
@@ -99,6 +99,61 @@ const download = () => {
                       order to foster a learning-focused environment, I encouraged active student
                       participation and involvement. Finally, I taught advanced coursework to a
                       cohort of over 50 students each semester.
+                    </div>
+                  </div>
+                  <div class="flex flex-col gap-3">
+                    <div>
+                      <div class="font-semibold">Co-Founder & Lead Software Engineer</div>
+                      <div class="text-sm">Visaro Inc - Nigeria & United Kingdom | Present</div>
+                    </div>
+                    <div class="text-zinc-400">
+                      As Co-Founder and Technical Lead at Visaro Inc, I led the full development of
+                      the company’s mobile applications using React Native and all web-related
+                      platforms with React, including admin panels, dashboards, and user-facing
+                      apps. I managed the engineering team, assigned and tracked tasks using Jira
+                      and Linear, and oversaw code quality, architecture, and deployment. I
+                      implemented secure KYC flows, integrated multiple payment gateways like
+                      Paystack and Flutterwave, and built custom flows for complex features to
+                      improve usability and user experience. I was responsible for the overall
+                      system architecture, security, and scalability across all platforms.
+                      Additionally, I represented the engineering team in meetings with partners,
+                      leading technical integration discussions and aligning business goals with
+                      development strategies.
+                    </div>
+                  </div>
+                  <div class="flex flex-col gap-3">
+                    <div>
+                      <div class="font-semibold">Head of Technology & Software Engineer</div>
+                      <div class="text-sm">MyMarketShop - Nigeria | Present</div>
+                    </div>
+                    <div class="text-zinc-400">
+                      At MyMarketShop, I served as Head of Technology, overseeing the architecture
+                      and development of both mobile and backend systems. I built and maintained the
+                      backend infrastructure using REST and GraphQL, and developed the mobile
+                      applications with React Native. I also provided support to the web development
+                      team, offering technical guidance and contributing to major components where
+                      needed. I created user-friendly flows for onboarding, KYC verification, store
+                      management, and order processing. Beyond development, I was responsible for
+                      making key design and technical decisions, documenting system architectures,
+                      and ensuring scalability, performance, and security across the platform. My
+                      role involved translating complex business requirements into intuitive and
+                      efficient technical solutions that enhanced both vendor and customer
+                      experiences.
+                    </div>
+                  </div>
+                  <div class="flex flex-col gap-3">
+                    <div>
+                      <div class="font-semibold">Web Developer</div>
+                      <div class="text-sm">HeartSync - United States | Present</div>
+                    </div>
+                    <div class="text-zinc-400">
+                      At HeartSync, a dating platform, I worked as a Web Developer focused on
+                      building and maintaining the admin interface used to manage users, moderators,
+                      and sellers on the platform. I developed key components of the internal
+                      dashboard using React, ensuring that the admin tools were efficient,
+                      responsive, and secure. My work helped streamline user management workflows,
+                      content moderation, and seller interactions within the ecosystem, directly
+                      supporting platform scalability and moderation efficiency.
                     </div>
                   </div>
                 </div>

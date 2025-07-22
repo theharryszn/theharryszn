@@ -66,6 +66,26 @@ import FooterView from '@/components/FooterView.vue'
             </div>
           </a>
         </div>
+        <RouterLink
+          to="/works"
+          class="justify-center items-center self-center gap-4 flex flex-col cursor-shrink"
+        >
+          <div
+            class="transition-opacity duration-300 w-20 justify-center items-center flex aspect-square rounded-full border border-zinc-50/50"
+          >
+            <svg
+              class="w-10 aspect-square text-zinc-50"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M202.83,146.83l-72,72a4,4,0,0,1-5.66,0l-72-72a4,4,0,0,1,5.66-5.66L124,206.34V40a4,4,0,0,1,8,0V206.34l65.17-65.17a4,4,0,0,1,5.66,5.66Z"
+              ></path>
+            </svg>
+          </div>
+          <div>View all works</div>
+        </RouterLink>
       </div>
       <div data-scroll-section class="pt-20 flex flex-col justify-center gap-10">
         <blockquote class="text-3xl pl-5 border-l-4 border-zinc-800/50">
