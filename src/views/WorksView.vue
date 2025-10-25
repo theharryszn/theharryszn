@@ -4,13 +4,61 @@ import FooterView from '@/components/FooterView.vue'
 
 const featured_projects = [
   {
+    title: 'Au Naturel',
+    description:
+      'A web gallery dedicated to showcasing the beauty of the human form through nude and self-portrait photography.',
+    url: 'https://au-naturel.vercel.app/',
+    image: new URL('/src/assets/images/screenshots/aunaturel.png', import.meta.url).href,
+    repository: null,
+    team: {
+      name: 'Harry',
+      url: 'https://github.com/OpeAbidemi'
+    }
+  },
+  {
+    title: '469 Tracker',
+    description:
+      'A civic-tech platform that allows Nigerians to track where each member of the National Assembly stands on the Reserved Seats for Women Bill.',
+    url: 'https://www.469tracker.com/',
+    image: new URL('/src/assets/images/screenshots/469tracker.png', import.meta.url).href,
+    repository: null,
+    team: {
+      name: 'TOS Foundation',
+      url: null
+    }
+  },
+  {
+    title: 'Stickies',
+    description:
+      'A simple note-taking web-app built with Vue and TailwindCSS. It allows you to pin sticky notes at random on a board. It harnesses the browser’s Local Storage for storing notes.',
+    url: 'https://stickies-app.vercel.app/',
+    image: new URL('/src/assets/images/screenshots/stickies.png', import.meta.url).href,
+    repository: 'https://github.com/OpeAbidemi/stickies',
+    team: {
+      name: 'Harry',
+      url: 'https://github.com/OpeAbidemi'
+    }
+  },
+  {
     title: 'Luxe Mom Recovery',
     description: 'A post-partum consultant',
     url: 'https://www.luxemomrecovery.ca/',
     image: new URL('/src/assets/images/screenshots/luxemom.png', import.meta.url).href,
     repository: null,
     team: {
-      name: 'Abidemi Ope',
+      name: 'Harry',
+      url: 'https://github.com/OpeAbidemi'
+    }
+  },
+  {
+    title: 'E-Family Kitchen',
+    description:
+      'A static digital menu showcasing bold African dishes and flame-grilled specialties for the CAA African U18/U20 Championships in Abeokuta 2025.',
+    url: 'https://e-family-menu.vercel.app/',
+    image: new URL('/src/assets/images/screenshots/efamilymenu.png', import.meta.url).href,
+    repository: null,
+    team: {
+      name: 'Harry',
       url: 'https://github.com/OpeAbidemi'
     }
   },
@@ -32,22 +80,11 @@ const featured_projects = [
     image: new URL('/src/assets/images/screenshots/arkoftestimony.png', import.meta.url).href,
     repository: null,
     team: {
-      name: 'Abidemi Ope',
+      name: 'Harry',
       url: 'https://github.com/OpeAbidemi'
     }
   },
-  {
-    title: 'Stickies',
-    description:
-      'Stickies is a simple note-taking web-app built with Vue and TailwindCSS. It allows you to pin sticky notes at random on a board. It harness the browsers Local Storage for storing notes.',
-    url: 'https://stickies-app.vercel.app',
-    image: new URL('/src/assets/images/screenshots/stickies.png', import.meta.url).href,
-    repository: 'https://github.com/OpeAbidemi/stickies',
-    team: {
-      name: 'Abidemi Ope',
-      url: 'https://github.com/OpeAbidemi'
-    }
-  },
+
   {
     title: 'Beatfro',
     description: 'A music streaming app',
@@ -66,7 +103,7 @@ const featured_projects = [
     image: new URL('/src/assets/images/screenshots/creativeengine.png', import.meta.url).href,
     repository: null,
     team: {
-      name: 'Abidemi Ope',
+      name: 'Harry',
       url: 'https://github.com/OpeAbidemi'
     }
   },
@@ -88,7 +125,7 @@ const featured_projects = [
     image: new URL('/src/assets/images/screenshots/darkchill.png', import.meta.url).href,
     repository: 'https://github.com/OpeAbidemi/darkchill',
     team: {
-      name: 'Abidemi Ope',
+      name: 'Harry',
       url: 'https://github.com/OpeAbidemi'
     }
   },
@@ -110,14 +147,14 @@ const featured_projects = [
     image: new URL('/src/assets/images/screenshots/olimf.png', import.meta.url).href,
     repository: null,
     team: {
-      name: 'Abidemi Ope',
+      name: 'Harry',
       url: 'https://github.com/OpeAbidemi'
     }
   },
   {
     title: 'hamburger',
     description:
-      'A yummy fullstack monorepo boilerplate 🍔🍔 using Typescript, GraphQL, React and React Native (Expo)',
+      'A yummy full-stack monorepo boilerplate 🍔🍔 using Typescript, GraphQL, React and React Native (Expo)',
     url: 'https://github.com/renli-tech/hamburger',
     image: new URL('/src/assets/images/screenshots/hamburger.png', import.meta.url).href,
     repository: 'https://github.com/renli-tech/hamburger',
